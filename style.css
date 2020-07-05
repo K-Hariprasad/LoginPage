@@ -1,6 +1,7 @@
-#body{
+.main{
   background: #1A1A1D;
   padding-top:10% ;
+  min-height: 80vh;
 }
 
 .box h1{
@@ -15,15 +16,13 @@
   text-align: center;
   border: 2px solid white;
   padding: 5px 8px;
-  width: 150px;
   outline: none;
   color: white;
   border-radius: 24px;
   transition: 0.25s;
 }
 .box input[type = "text"]:focus,.box input[type = "password"]:focus{
-  width: 200px;
-  border-color:  #F13C;
+    border-color:  #F13C;
 }
 .box input[type = "submit"]{
   border:0;
